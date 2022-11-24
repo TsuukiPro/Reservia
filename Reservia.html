@@ -11,7 +11,7 @@
     <script src="https://kit.fontawesome.com/2e5e7c6a19.js" crossorigin="anonymous"></script>
     
     <!-- Stylesheets -->
-    <link rel="stylesheet" href="./Style/styles.css" />
+    <link rel="stylesheet" href="Style/styles.css" />
   </head>
 
   <body>
@@ -66,7 +66,7 @@
         
         <div class="hosting-main">  <!-- Main -->
           <h2 class="hosting-title"> Hébergements à Marseille</h2>
-          <articles class="hosting-article-box">
+          <div class="hosting-article-box">
             <article class="hosting-article-case">
               <a href="#">
                 <figure class="figure-article"> <img class="cover-fit" src="./Assets/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge de la Cannebière"></figure>
@@ -159,7 +159,7 @@
             </article>
 
             <a href="#" class="hosting-more"> <b>Afficher plus</b> </a>
-          </articles>
+          </div>
         </div>
 
         <div class="hosting-popular">  <!--  Popular -->
@@ -167,7 +167,7 @@
             <h2 class="popular-title"> Les plus populaires </h2>
             <i class="fas fa-chart-line popularIcon"></i>
           </div>
-          <articles class="hosting-popular-box">
+          <div class="hosting-popular-box">
             <article class="hosting-popular-case">
               <a href="#">
                 <img class="cover-fit2" src="./Assets/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Auberge de la Cannebière">
@@ -220,7 +220,7 @@
             </article>
 
 
-          </articles>
+          </div>
         </div>
         
       </Section>
@@ -262,18 +262,21 @@
     <!-- Section 5 : Footer -->
     <Footer class="footer">
       <nav class="navFooter">
-        <ul class="footerList"> <strong>A propos</strong> 
+        <ul class="footerList">
+          <span>A propos</span>
           <li> <a href="#"> Fonctionnement du site </a> </li>
           <li> <a href="#"> Conditions générales de vente </a></li>
           <li> <a href="#"> Données de confidentialités </a></li>
         </ul>
 
-        <ul class="footerList"> <strong>Nos hébérgements</strong>
+        <ul class="footerList">
+          <span> Nos hébérgements </span>
           <li> <a href="#">Charte qualité</a> </li>
           <li> <a href="#"> Soumettre votre hôte</a></li>
         </ul>
 
-        <ul class="footerList"> <strong>Assistance</strong> 
+        <ul class="footerList">
+          <span> Assistance </span>
           <li> <a href="#"> Centre d'aide </a> </li>
           <li> <a href="#"> Nous contacter </a></li>
         </ul>
