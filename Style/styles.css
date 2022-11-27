@@ -84,17 +84,16 @@ header a:hover, a:focus, .active-btn{
   .navbar-container {
     order: 1; /* par défaut flex order = 0 */
     flex-basis: 100%;
-
   }
 
   .navbar-container a {
     width: 50%;
     text-align: center;
     border-bottom: 3px solid rgb(248, 248, 248);
+    border-top: none;
   }
 
   .navbar-container a:hover, a:focus{
-    border-top: none;
     border-bottom-color: rgb(14, 14, 235);
   }
 
